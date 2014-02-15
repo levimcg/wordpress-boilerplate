@@ -1,0 +1,14 @@
+
+//  Wrap and center content
+
+@mixin section-wrapper {
+	max-width: $site-max-width;
+	width: $precentage-padding;
+	margin: 0 auto;
+}
+
+// Calculate percentage function, ala Ethan Marcotte
+
+@function calc-percent($target, $context) {
+	@return ($target/$context) * 100%;
+}
