@@ -7,8 +7,9 @@ Author: 		Levi McGranahan
 
 */
 
-@import "partials/vars";
-@import "partials/mixins";
+@import "global/variables";
+@import "global/mixins";
+
 @import "partials/reset";
 @import "partials/base";
 @import "partials/header";
