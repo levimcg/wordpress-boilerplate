@@ -1,16 +1,5 @@
-
-
 //	Typography settings
-$default-font: #{'Helvetica Neue', Helvetica, Arial, sans-serif};
+$font-default: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Colors
-$primary-color: #2fa0ff;
-
-// 	Wrapper settings
-$site-max-width: 1024px; //Change this to your site max-width
-$precentage-padding: 90%; //This acts as padding on mobile change as needed
-
-//	Breakpoints
-$small-mobile: 320px;
-$mobile: 500px;
-$tablet: 800px;
+$color-primary: #2fa0ff;

@@ -1,16 +1,15 @@
 /*
-Theme Name: 	levimcg
+Theme Name: 	Wordpress Boilerplate
 Theme URI: 		http://levimcg.com
 Description: 	Customized starter theme based on the Starkers Theme https://github.com/viewportindustries/starkers
 Version: 		1.0
 Author: 		Levi McGranahan
-
 */
 
 @import "global/variables";
 @import "global/mixins";
+@import "global/normalize";
 
-@import "partials/reset";
 @import "partials/base";
 @import "partials/header";
 @import "partials/footer";
